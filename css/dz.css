@@ -1,0 +1,357 @@
+/* 
+    Created on : 2014-9-18, 15:42:30
+    Author     : 
+*/
+body{
+  font-family: "Helvetica Neue","Microsoft Yahei","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  background-color: #ffd1f3;
+  overflow: auto;
+  color: #333;
+}
+.clearfix:after{
+  content: " ";
+  height: 0;
+  clear: both;
+  display: block;
+  visibility: hidden;
+}
+ul{ list-style: none; }
+a{ text-decoration: none; }
+img{ border: none; }
+.hl{    /* highlight */
+  color: #e90080;
+}
+body,h1,h2,h3,p,ul,li,img{
+  margin: 0;
+  padding: 0
+}
+header,footer,nav,section{ display: block; }
+.width{
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+/* header */
+.logo{
+  background-image: url("../images/jiaocuo.png");
+  height: 220px;
+  background-repeat: repeat-x
+}
+.logo img{
+  position: absolute;
+  top: 65px;
+  left: 150px;
+}
+.nav{
+  background-color: #fff;
+  width: 100%;
+  opacity: 0.9;
+  z-index: 999;
+}
+.nav ul{
+  margin: 0 auto;
+  width: 60%;
+}
+.nav li{
+  float: left;
+  box-sizing: border-box;
+  width: 14.285%;
+}
+.nav li a{
+  display: block;
+  padding: 15px 10px;
+  color: #E90080;
+  font-size: 1.285em;
+  text-align: center;
+}
+.nav li a:hover{
+  box-shadow: 0 0 5px #E90080;
+}
+.navHover{
+  box-shadow: 0 0 5px #E90080;
+}
+
+/* 关于我们 */
+.gywm{  
+  background-image: url("../images/bg2.png");
+  background-repeat: repeat-x;
+  min-width: 1200px;
+}
+.slogan{ 
+  float: left;
+  margin-top: 15%;
+}
+.slogan p{
+  font-size: 4.285em;
+  font-weight: bold;
+}
+.lastP{ text-indent: 2em;}
+.slogan span{
+  font-size: 1.333em;
+}
+.gylg{
+  font-size: 1em;
+  padding: 0 10px 10px;
+  border: 3px dashed #919191;
+  float: left;
+  width: 90%;
+  margin-top: 5%;
+}
+.gylg h2{
+  font-size: 1.714em;
+}
+.gylg h2+p{
+  padding-bottom: 15px;
+  text-indent: 2em;
+}
+.bigImg{
+  /*background-image: url("../images/beauty.png");
+  background-repeat: no-repeat;*/
+  float: left;
+  margin-top: 10%;
+  width: 50%;
+  box-sizing: border-box;
+}
+.bigImg img{ max-width: 100%; }
+.page{
+  /*background-image: url("../images/page.png");
+  background-repeat: no-repeat;*/
+  float: left;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+
+/* 品牌中心 */
+.ppzx{
+  font-size: 1.714em;
+  text-align: center;
+  
+  /*background-image: url("../images/dot.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  margin-top: -40px;*/
+}
+.ppzx p{
+  font-weight: 500;
+}
+
+.pplogo{
+  margin: 2em 0 5em;
+}
+.pplogo ul{
+  width: 84%;
+  margin: 0px auto 15px;;
+}
+.pplogo li{
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+}
+.pplogo li a{
+  display: inline-block;
+  padding: 25px 40px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+.pplogo li a:hover{
+  transform:         scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform:    scale(1.05);
+  -ms-transform:     scale(1.05);	
+  -o-transform:      scale(1.05);
+}
+
+/* 创业合作 */
+.cyhz{
+  margin: 1em auto 4em;
+  text-align: center; 
+}
+.cyhz h1{
+  font-size: 3em;
+  margin-bottom: 5%;
+  line-height: 1;
+}
+.cyhz h1 span{
+  font-size: 1.73em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+td,th {
+  padding: 0;
+}
+.cyhz td{
+  width: 20%;
+}
+.circle{
+  color: #fff;
+  padding: 0.5px 6px;
+  margin-right: 5px;
+  background-color:#e90080;;
+  border-radius: 10px;
+}
+.reflect{
+  -webkit-box-reflect: below 0 -webkit-linear-gradient(transparent,transparent 60%,rgba(255,255,255,.1));
+}
+.tar{ text-align: right;}
+.tal{ text-align: left; padding-left: 15px;}
+
+/* 经营流程 */
+.jylc{
+
+}
+.jylc header{
+  margin-bottom: 3em;
+}
+.dash{
+  background-repeat: repeat-x;
+  background-image: url("../images/dash.png");
+  background-position: 5% 50%;
+  width: 100%;
+  margin: 0px auto;
+}
+.lc{
+  background-color: #ca4343;
+  font-size: 36px;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 5px 30px;
+  font-weight: normal;
+  color: #fff;
+}
+.dashed{
+  background-repeat: repeat-x;
+  background-image: url("../images/dash.png");
+  height: 3px;
+}
+.title{
+  //height: 60px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.indent1,.indent8{ margin-left: 3em; }
+.indent2,.indent7{ margin-left: 5em; }
+.indent3,.indent6{ margin-left: 7em; }
+.indent4,.indent5{ margin-left: 8em; }
+.bigCircle{
+  //padding: 0 17px;
+  //font-size: 3em;
+  //border-radius: 65px;
+  border-radius: 80px;
+  background-color: #E90080;
+  font-weight: bold;
+  float: left;
+  font-size: 20px;
+  padding: 6px 15px;
+}
+.bigArrow{
+background-image: url('../images/bigArrow.png');
+background-position: 0% 50%;
+background-repeat: no-repeat;
+box-sizing: border-box;
+border: 1px solid transparent;
+margin-left: -13px;
+display: inline-block;
+width: 103px;
+height: 25px;
+float: left;
+padding: 0px 10px 0 25px;
+font-size: 16px;
+font-weight: bold;
+color: #FFF;
+line-height: 25px;
+margin-top: 7px
+}
+.jylc li{
+  float: left;
+}
+.jylc button{
+  width: 96px;
+  height: 32px;
+  border: 1px solid transparent;
+  background-color: #FFb1e1;
+  border-radius: 5px;
+  color: #fff;
+  float: right;
+}
+.jylc button:hover{
+  transform:         scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform:    scale(1.05);
+  -ms-transform:     scale(1.05);	
+  -o-transform:      scale(1.05);
+}
+.cooperate{
+  width: 840px;
+  margin: 3em auto;
+  height: 235px;
+}
+.cooperate li{
+  width: 33.33%;
+  border:1px solid #ccc; 
+  padding: 24px;
+  background-color: #fff;
+  box-sizing: border-box;
+  display: block;
+  height: 235px;
+}
+.cooperate p{ 
+  text-align: justify; 
+  font-size: 1.144em;
+}
+.content{
+  height: 40px;
+  margin-left: 85px;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+/* 合作 */
+.hz{
+  background-color: #fce0f4;
+  padding-top: 40px;
+}
+.hz h1{
+  margin: 20px 0;
+}
+.hz p{ font-size: 1.714em; }
+
+/* 注册流程 */
+.zclc dt,.dzlc dt,.FAQ dt{
+  font-size: 1.285em;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.FAQ {
+  background-color: #fff;
+  padding-bottom: 20px;
+}
+.FAQ dt{
+  color: #ca4343;
+  font-size: 16px;
+}
+.FAQwrap{ 
+  border: 1px solid #ca4343;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px 0;
+}
+.link{
+  text-decoration: underline;
+  color: #000;
+  padding-left: 5px;
+}
+.link:hover{
+  color: #00f;
+}
+.hidden{
+  //display: none;
+}
+
+

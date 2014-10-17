@@ -1,0 +1,118 @@
+/* 
+    Created on : 2014-10-17, 14:39:34
+    Author     : Lirn
+*/
+body{
+  font-family: "Helvetica Neue","Microsoft Yahei","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif;
+  background-color: #f7f7f7;
+  text-align: center;
+  min-width: 320px;
+}
+.tinmeBgColor{ background-color: #c32f80; }
+.tinmeFtColor{ color: #c32f80 }
+.header{
+  height: 2.66667em;
+  color: #fff;
+  font-size: 1.28571em;
+}
+.header ul{
+  box-shadow: 1px 0 4px rgba(51, 51, 51, 0.65);
+}
+.header p{ margin-bottom: 0; }
+ul,li,a{ 
+  padding: 0; 
+  margin: 0;
+}
+li{
+  list-style: none;
+}
+.header li{
+  float: left;
+  width: 50%;
+  padding: 0.61111em 0;
+}
+.header li:first-child,.header li:last-child{
+  width: 25%;
+  padding: 0;
+}
+.header li:first-child a{
+  text-align: left;
+}
+.header li:last-child a{
+  text-align: right;
+}
+.header li a{
+  display: inline-block;
+  padding: 0.83333em;
+  outline: medium none;
+  width: 100%;
+  color: #FFF;
+  text-align: left;
+}
+.input-group .fa{
+  line-height: 20px;
+  font-size: 16px;
+}
+.header li a:hover,.header li a:focus{
+  text-decoration: none;
+  background-color: #fff;
+  color: #c32f80;
+}
+.cr{ /* copyright */
+  color:#c6c6c6;
+  font-size: 1.71428em;
+  margin: 6em 0 1em;
+}
+/* 以上50行是tianmeAPP的header与footer，后期可独立出来 */
+article{ 
+  width: 94%; 
+  margin: 0 auto;
+}
+.address{
+  margin: 20px 0;
+  padding-top:10px;
+/*   outline: 2px solid;*/
+  border-radius: 3px;
+  background: url("../images/APP/envelope.png") 0% 0% / auto 4px repeat-x #fff;
+  box-shadow: 0 0 2px #bbb;
+}
+.address p{
+  margin: 6px 0 8px 10px;
+  text-align: left;
+}
+.address p span:first-child{
+  padding-right:20px;
+}
+.address li+li{
+  display: inline-block;
+  width: 50%;
+  border-top: 1px solid #ddd;
+}
+.address li:last-child{ 
+  border-left: 1px solid #ddd; 
+  margin-left: -5px;
+}
+.address li a{
+  display: block;
+  padding: 10px 0px;
+  cursor: pointer;
+  color: #333;
+}
+.address li a:hover,
+.address li a:focus{
+  background-color: #f7f7f7;
+}
+.address .fa{ padding-right: 10px; }
+.add{
+  font-size: 1.14285em;
+  background-color: #F7F7F7;
+  border: 1px solid #DDD;
+  border-radius: 4px;
+  width: 100%;
+  padding: 7px 0;
+}
+.add:hover,
+.add:focus{
+  background-color: #fff;
+}
+

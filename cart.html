@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="天美微网站" />
+    <meta name="keywords" content="天美" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>天美微站之购物车</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet" >
+    <link href="css/cart.css" rel="stylesheet">
+  </head>
+  <body> 
+    <header class="header tinmeBgColor">
+      <ul class="clearfix">
+        <li><a href="#" class="fa fa-chevron-left"></a></li>
+        <li>购物车</li>
+        <li><a href="#" class="fa fa-list-ul"></a></li>
+      </ul>
+    </header>
+    <article>
+      <section class="goods">
+        <div class="detail clearfix">
+          <a href="#"><img src="images/App/cart1.png" alt=""></a>
+              <div class="descript">
+                <a href="#"><h2>韩束 雪白肌超级无敌精华霜</h2></a>
+                <a href="#"><span class="fa fa-trash-o del"></span></a>
+                <p><span class="price">￥148.50</span><span class="unitP">单价</span><span class="type">类型：50ml</span></p>
+                <span class="orCost">专柜价 ￥165.00</span>
+                <span class="total">总价: 297.00 (元)</span>
+                <div class="input-group">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default fa fa-minus" id="kans-minus" type="button"></button>
+                  </span>
+                  <input class="form-control"  type="number" value=1>
+                  <span class="input-group-btn">
+                    <button class="btn btn-default fa fa-plus" id="kans-plus" type="button"></button>
+                  </span>
+                </div>
+              </div>
+            </div>
+      </section>
+      
+      <section class="goods">
+        <div class="detail clearfix">
+          <a href="#"><img src="images/App/cart2.png" alt=""></a>
+              <div class="descript">
+                <a href="#"><h2>韩束 雪白肌超级无敌精华霜</h2></a>
+                <a href="#"><span class="fa fa-trash-o del"></span></a>
+                <p><span class="price">￥148.50</span><span class="unitP">单价</span><span class="type">类型：50ml</span></p>
+                <span class="orCost">专柜价 ￥165.00</span>
+                <span class="total">总价: 297.00 (元)</span>
+                <div class="input-group">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default fa fa-minus" type="button"></button>
+                  </span>
+                  <input type="text" class="form-control" value=1>
+                  <span class="input-group-btn">
+                    <button class="btn btn-default fa fa-plus" type="button"></button>
+                  </span>
+                </div>
+              </div>
+            </div>
+      </section>
+      <section class="checkOut">
+        <p>合计(不含运费)：<span class="tinmeFtColor">￥1234</span></p>
+        <button type="submit" class="btn tinmeBgColor">去结算(x)</button>
+      </section>
+    </article>
+    <!--script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script-->
+    <script>
+      /*($(function(){
+        var count=$(".form-control");
+        count.val(1);
+        $(".fa-plus").on("click",function(){
+          count.val(+count.val() + 1);
+          });
+        $(".fa-minus").on("click",function(){
+          if(count.val()>=2)
+          count.val(+count.val() - 1);
+        });
+        var del = $(".del");
+        del.on('click',function(){
+          $(".goods").css('display','none');
+        });
+      })(jQuery));*/
+      var el = document.getElementById("kans-plus");
+      var re = document.getElementsByClassName("form-contral").text=1;
+      el.addEventListener("click",function(){
+        re = +re + 1;
+        alert(re);
+      },false);
+    </script>
+  </body>
+</html>
+

@@ -1,0 +1,200 @@
+/* 
+    Created on : 2014-9-24, 17:44:39
+    Author     : 
+*/
+ /* custom bootstroop */
+body{
+  font-family: "Helvetica Neue","Microsoft Yahei","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif;
+  background-color: #e7e7e7;
+  text-align: center;
+}
+.form-group,.input-group{ width: 100%; margin-bottom: 0;}
+.form-group{
+  margin-top: 1.42857em;
+}
+.btn,.input-group-addon,.form-control{
+  border-radius: 0;
+}
+.input-group-addon{ 
+  /*height: 4.5em;*/
+  width: 15%;
+  background-color: #ccc;
+  font-size: 1em;
+}
+.form-control{ 
+  font-size: 1.72428em;
+  height: 3.33334em;
+  color: #333;;
+}
+.form-control::-webkit-input-placeholder { /* WebKit browsers */
+    color: #ccc;
+}
+.form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:   #ccc;
+}
+.form-control:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #ccc;
+}
+.input-group-btn{
+  width: auto;
+  font-size: 1em;
+}
+.btn{
+  color: #fff;
+  width: 100%;
+  margin-top: 2.33334em;
+  font-size: 2.142857em;
+  height: 2.66667em;
+}
+button[class="btn sendCode"]{ margin-top: 0; }
+.btn:hover,
+.btn:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(249, 62, 164, 1);
+}
+.glyphicon{ color: #fff; top:0; font-size: 2.5em;}
+label{
+  font-size: 1.71428em;
+  font-weight: normal;
+  color: #a7a7a7;
+  padding: 0 0.3em 0 0.2em;
+}
+input[type="radio"]{
+  margin-top: 0.5em;
+}
+input[type="radio"]:focus{
+  outline: none;
+}
+/* create by R */
+img{ 
+  max-width: 100%;
+  height: auto;
+}
+.tinmeColor{ background-color: #c32f80 }
+.header{
+  height: 2.66667em;
+  color: #fff;
+  font-size: 2.57142em;
+}
+ul,li,a{ 
+  padding: 0; 
+  margin: 0;
+}
+li{
+  list-style: none;
+}
+.header p{ margin-bottom: 0; }
+.header .glyphicon{ font-size: 1em; }
+.header li{
+  float: left;
+  width: 70%;
+  padding: 0.61111em 0;
+}
+.header li:first-child,.header li:last-child{
+  width: 15%;
+  padding: 0;
+}
+.header li a{
+  display: inline-block;
+  padding: 0.83333em;
+  outline: none;
+  width: 100%;
+  color: #fff;
+}
+.header li a:hover,.header li a:focus{
+  text-decoration: none;
+  background-color: #fff;
+  color: #c32f80;
+}
+.logo{
+  padding-bottom: 2em;
+  border-bottom: 1px solid #ccc;
+}
+.main{ 
+  padding-top: 2em; 
+  width: 83.3333%;
+  margin: 0 auto;
+}
+.login{ margin-top: 4em; }
+.forget{
+  font-size: 1.71428em;
+  color: #515151;
+  margin-top: 1em;
+  text-align: right;
+  display: block;
+}
+.cr{ /* copyright */
+  color:#c6c6c6;
+  font-size: 1.71428em;
+  margin: 6em 0 1em;
+}
+/* 注册页 */
+.invite{
+  padding: 1em 0 3.5em;
+  border-bottom: 1px solid #ccc;
+}
+.invite li{
+  float: left;
+  list-style: none;
+  width: 100%;
+}
+.invite li:first-child{
+  margin-bottom: 1.42857em;
+}
+.invite li:last-child{
+  text-align: right;
+}
+.sendCode{
+  background-color: #2980b9;
+  font-size: 2.14285em;
+  color: #fff;
+}
+
+.sendCode:hover,
+.sendCode:focus
+{ background-color: #3EA8ED; }
+.title{
+  font-size: 2.14285em;
+  float: left;
+}
+.step{
+  color: #ccc;
+  float: right;
+  font-size: 1.71428em;
+  font-style: italic;
+  line-height: 1.78572em;
+}
+.account{ margin: 3em 0 1.71428em}
+.confirm{
+  margin-top: 1.33333em;
+}
+/* 感谢注册页 */
+.thanks{ margin-bottom: 10em; }
+.thanks h1{
+  font-size: 2.14285em;
+  padding: 1.33333em 0;
+  margin: 0;/* 消除框架的margin值 */
+}
+.thanks p{
+  font-size: 1.71428em;
+  text-align: justify;
+}
+.thanks span{ color: #2a80b9; }
+@media screen and (max-width:600px) {
+  body { font-size: 11.66667px; }
+  .logo img{ width: 138px; }
+}
+@media screen and (max-width:480px) {
+  body { font-size: 9.33333px; }
+  .logo img{ width: 110px; }
+}
+@media screen and (max-width:360px) {
+  body { font-size: 7px; }  
+  .logo img{ width: 83px; }
+}
+/*@media screen and (max-width:240px) {
+  body { font-size: 4.66666px; }
+  .logo img{ width: 55px; }
+  .form-control{ height: 6.66668em; }
+}*/

@@ -1,0 +1,44 @@
+/* 
+    Created on : 2014-9-18, 10:41:25
+    Author     : 
+*/
+.img{
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1185px;
+  margin: 0 auto;
+}
+.bg{
+  background-repeat: repeat-x;
+  background-position: center;
+}
+.bg1{
+  background-image: -moz-linear-gradient(to bottom, #6363BB, #9B3CA2);
+}
+.bg2{
+  background-image: -moz-linear-gradient(to bottom, #E52BA6, #F7399D);
+}
+.img1{
+  background-image: url("../images/test2.png");
+  height: 709px;
+}
+.img2{
+  background-image: url("../images/test3.png");
+  height: 751px;
+}
+.img3{
+  background-image: url("../images/test4.png");
+  height: 738px;
+}
+.img4{
+  background-image: url("../images/test5.png");
+  height: 728px;
+}
+.img5{
+  background-image: url("../images/test6.png");
+  height: 754px;
+}
+.banner { position: relative; overflow: auto; }
+    .banner li { list-style: none; }
+    //.banner ul { margin-bottom: 0; left: 0; }
+        .banner ul li { float: left; }

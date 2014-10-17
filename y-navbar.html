@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<title>y-collapse</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="author" content="李润<lirun3196@163.com>"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0" />
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="HandheldFriendly" content="true" />
+
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<style>
+  .panel-group{
+    width:10%;
+    text-align: center;
+  }
+  .panel-body,.panel-heading{ padding:0; }
+  .panel-body ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .panel-body li:last-child{ border-bottom: 0; padding-bottom: 0;}
+  .panel-body a, .panel-heading a{
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    color:#333;
+  }
+  .panel-body a:hover,
+  .panel-heading a:hover,
+  .panel-heading a:focus{
+    text-decoration: none;
+    outline-width: 0;
+  }
+  .panel-heading a{ border-bottom:0; }
+  .panel-body a:hover{ background-color: #f5f5f5; }
+</style>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <aside>
+      <nav>
+        <div class="panel-group" id="y-show">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#y-show" href="#one">
+                  技能
+                </a>
+              </h4>
+            </div>
+            <div class="panel-collapse collapse" id="one">
+              <div class="panel-body">
+                <ul>
+                  <li><a>CSS</a></li>
+                  <li><a>jQuery</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#y-show" href="#two">
+                  技能
+                </a>
+              </h4>
+            </div>
+            <div class="panel-collapse collapse" id="two">
+              <div class="panel-body">
+                <ul>
+                  <li><a>CSS</a></li>
+                  <li><a>jQuery</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </nav>
+    </aside>
+  </div>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

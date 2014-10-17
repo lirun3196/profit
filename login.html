@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="天美微网站" />
+    <meta name="keywords" content="天美" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>天美微站</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet" >
+    <link href="css/tinmeAPP.css" rel="stylesheet">
+  </head>
+  <body> 
+    <header class="header tinmeColor">
+      <ul class="clearfix">
+        <li><a href="#" class="fa fa-chevron-left"></a></li>
+        <li>天美网</li>
+        <li><a href="#" class="fa fa-list-ul"></a></li>
+      </ul>
+    </header>
+    <article class="main">
+      <header class="logo">
+        <img src="images/APP/logo.png" alt="天美logo">
+      </header>
+      <div class="login">
+      <form class="form-inline" role="form">
+          <div class="form-group">
+            <div class="input-group">
+              <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+              <input class="form-control" id="account" type="text" placeholder="请输入登录账号">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group">
+              <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+              <input type="password" class="form-control" id="password" placeholder="请输入密码">
+            </div>
+          </div>
+        <button type="submit" class="btn tinmeColor">立即登录</button>
+      </form>
+      <a href="#" class="forget">忘记密码?</a>
+      </div>
+    </article>
+    <footer>
+      <p class="cr">Copyrigh&nbsp;&COPY;&nbsp;天美网 tinme.cn</p>
+    </footer>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      ($(function(){
+        var $this1 = $("#account");
+        var holder1 = $this1.attr('placeholder');
+        $this1.focusin(function(){
+          $this1.attr({ 'placeholder':''});
+        }).focusout(function(){
+          $this1.attr({ 'placeholder':holder1});
+        });
+        var $this2 = $("#password");
+        var holder2 = $this2.attr('placeholder');
+        $this2.focusin(function(){
+          $this2.attr({ 'placeholder':''});
+        }).focusout(function(){
+          $this2.attr({ 'placeholder':holder2});
+        });
+        /*var $this = $(".form-control");
+        $this.each(function(){
+          var holders = $(this).attr('placeholder');
+            $this.on({
+            focusin:function(){
+              $(this).attr({ 'placeholder':'' });
+            },
+            focusout:function(){
+              $(this).attr( 'placeholder',holders);
+            }
+          }); //end on
+        }); //end each*/ 
+      })(jQuery));
+    </script>
+  </body>
+</html>
+

@@ -1,0 +1,185 @@
+/* 
+    Created on : 2014-10-2, 15:21:21
+    Author     : 
+*/
+body{
+  font-family: "Helvetica Neue","Microsoft Yahei","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif;
+  background-color: #e5e5e5;
+  text-align: center;
+  min-width: 320px;
+}
+.tinmeBgColor{ background-color: #c32f80; }
+.tinmeFtColor{ color: #c32f80 }
+.header{
+  height: 2.66667em;
+  color: #fff;
+  font-size: 2.57142em;
+}
+.header p{ margin-bottom: 0; }
+.header .glyphicon{ font-size: 1em; color: #fff;top:0; }
+ul,li,a{ 
+  padding: 0; 
+  margin: 0;
+}
+li{
+  list-style: none;
+}
+.header li{
+  float: left;
+  width: 70%;
+  padding: 0.61111em 0;
+}
+.header li:first-child,.header li:last-child{
+  width: 15%;
+  padding: 0;
+}
+.header li a{
+  display: inline-block;
+  padding: 0.83333em;
+  outline: medium none;
+  width: 100%;
+  color: #FFF;
+}
+.input-group .fa{
+  line-height: 20px;
+  font-size: 16px;
+}
+.header li a:hover,.header li a:focus{
+  text-decoration: none;
+  background-color: #fff;
+  color: #c32f80;
+}
+.cr{ /* copyright */
+  color:#c6c6c6;
+  font-size: 1.71428em;
+  margin: 6em 0 1em;
+}
+/* 以上50行是tianmeAPP的header与footer，后期可独立出来 */
+
+.glyphicon{ color: #fff; top:0;}
+.btn{ border-radius: 0; color: #fff;}
+.input-group{ width: 130px; height: 34px}
+.input-group input{
+  text-align: center;
+  font-size: 18px;
+  line-height: 34px;
+  border-left: none;
+  border-right: none;
+  padding: 0;
+  color: #515151;
+}
+input[type="number"]{
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+}
+.detail a,
+.detail a:focus
+{ color: #000; }
+article{ margin-bottom: 74px; }
+article>.btn{
+  width: 80%;
+  margin-top: 2.33334em;
+  font-size: 2.142857em;
+  height: 2.66667em;
+  background-color: #c32f80;
+}
+article>.btn:hover,
+article>.btn:focus,
+.checkOut>.btn:hover,
+.checkOut>.btn:focus{
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(249, 62, 164, 1);
+}
+article .btn{ outline: none;/* 显示申明，否则浏览器会加上user agent 样式 */ }
+.btn-default{
+  background-color: #e5e5e5;
+}
+.orCost{
+  color: #ccc;
+  font-size: 1.714285em;
+  text-decoration: line-through;
+  font-style: italic;
+  display: block;
+  margin-bottom: 10px;
+}
+.del{
+  color: #ccc;
+  font-size: 2em;
+  float: right;
+  margin-right: 5px;
+  margin-top: -5px;
+}
+.goods{
+  text-align: left;
+  background-color: #fff;
+  margin: 20px;
+  padding: 10px 0 20px 10px;
+}
+.goods h2{
+  display: inline-block;
+  font-size: 1.71428em;
+}
+.goods p{ margin-bottom: 0; }
+.number{
+  vertical-align: bottom;
+}
+.price{
+  font-size: 2.14285em;
+  font-weight: bold;
+  color: #c32f80;
+}
+.unitP{/* 单价*/
+  font-size: 1.28571em;
+  font-weight: bold;
+  color: #c32f80;
+  margin-left: 0.5em;
+  margin-right: 1.5em;
+}
+.type{
+  font-size: 1.28571em;
+  color: #ccc;
+}
+.total{
+  font-size: 1.28271em;
+  color: #515151;
+}
+.detail img{
+  float: left;
+}
+.checkOut{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 42px;
+  text-align: center;
+  background-color: #f5f5f5;
+  font-size: 14px;
+  border-top: 1px solid #ddd;
+  box-shadow: 0 -1px 1px #ddd;
+  z-index: 99;
+}
+.checkOut p{
+  float: left;
+  width: 60%;
+  line-height: 42px;
+}
+.checkOut button{
+  float: right;
+  width: 40%;
+  height: 42px;
+}
+@media screen and (min-width:600px) and (max-width:719px){
+  body { font-size: 11.66667px; }
+}
+@media screen and (min-width:480px) and (max-width:599px){
+  body { font-size: 9.33333px; }
+}
+@media screen and (min-width:360px) and (max-width:479px){
+  body { font-size: 7px; }
+  .detail img{ width:40%; }
+}
+@media screen and (min-width:240px) and (max-width:359px){
+  body { font-size: 5px; }
+  .detail img{ width:40%; }
+}

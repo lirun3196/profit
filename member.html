@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="天美微网站" />
+    <meta name="keywords" content="天美" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>会员中心</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet" >
+    <link href="css/member.css" rel="stylesheet">
+  </head>
+  <body> 
+    <header class="header tinmeBgColor">
+      <ul class="clearfix">
+        <li><a href="#" class="fa fa-chevron-left"></a></li>
+        <li>我的天美</li>
+        <li><a href="#" class="fa fa-list-ul"></a></li>
+      </ul>
+    </header>
+    <article>
+      <section class="row user clearfix">
+        <div class="col-xs-10 user-info">
+          <img src="images/APP/user-default.png" class="user-avatar">
+          <span class="user-name">lirun3196@gmail.com</span>
+          <span class="">欢迎回来</span>
+        </div>
+        <div class="col-xs-2"><img src="images/APP/bigbf.png" class="fly"></div>
+      </section>
+      <section>
+        <ul class="dmm">
+          <li><a href="#"><strong>0</strong>待付款</a></li>
+          <li><a href="#"><strong>1</strong>待发货</a></li>
+          <li><a href="#"><strong>2</strong>待收货</a></li>
+          <li><a href="#"><strong>3</strong>待评价</a></li>
+        </ul>
+      </section>
+      <!--div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-4">
+            <a class="fa fa-star"></a>
+            <p>我的收藏</p>
+          </div>
+          <div class="col-xs-4">
+            <a class="fa fa-gift"></a>
+            <p>我的红包</p>
+          </div>
+          <div class="col-xs-4">
+            <a class="fa fa-user" href="info.html"></a>
+            <p>我的信息</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <a class="fa fa-truck"></a>
+            <p>跟踪包裹</p>
+          </div>
+          <div class="col-xs-4">
+            <a class="fa fa-dollar"></a>
+            <p>资金管理</p>
+          </div>
+          <div class="col-xs-4">
+            <a class="fa fa-dollar"></a>
+            <p>资金管理</p>
+          </div>
+        </div>
+      </div-->
+      <ul class="list-group">
+        <li class="list-group-item">
+          <a href="collection.html">
+            <div class="fl">
+              <span class="fa fa-heart-o"></span>
+              <span class="content">我的收藏</span>
+            </div>
+            <span class="fa fa-angle-right"></span>
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="gift.html">
+            <div class="fl">
+              <span class="fa fa-gift"></span>
+              <span class="content">我的红包</span>
+            </div>
+            <span class="fa fa-angle-right"></span>
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="fund.html">
+            <div class="fl">
+              <span class="fa fa-dollar"></span>
+              <span class="content">资金管理</span>
+            </div>
+            <span class="fa fa-angle-right"></span>
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="info.html">
+            <div class="fl">
+              <span class="fa fa-info-circle"></span>
+              <span class="content">个人信息</span>
+            </div>
+            <span class="fa fa-angle-right"></span>
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="address.html">
+            <div class="fl">
+              <span class="fa fa-map-marker"></span>
+              <span class="content">地址管理</span>
+            </div>
+            <span class="fa fa-angle-right"></span>
+          </a>
+        </li>
+      </ul>
+    </article>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <!--script src="js/bootstrap.min.js"></script-->
+    <script>
+      $(function(){
+        $(".fly").show(1000,function(){
+          $(this).addClass("show-info");
+        });
+        $(".col-xs-10.user-info").show(1000,function(){
+          $(this).addClass("show-info");
+        });
+      });
+    </script>
+  </body>
+</html>
+
