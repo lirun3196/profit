@@ -53,7 +53,7 @@ li{
   line-height: 20px;
   font-size: 16px;
 }
-.header li a:hover,.header li a:focus{
+.header li a:hover{
   text-decoration: none;
   background-color: #fff;
   color: #c32f80;
@@ -98,8 +98,7 @@ article{
   cursor: pointer;
   color: #333;
 }
-.address li a:hover,
-.address li a:focus{
+.address li a:hover{
   background-color: #f7f7f7;
 }
 .address .fa{ padding-right: 10px; }
@@ -111,8 +110,23 @@ article{
   width: 100%;
   padding: 7px 0;
 }
-.add:hover,
-.add:focus{
+.add:hover{
   background-color: #fff;
 }
 
+/*模态框之删除*/
+.modal-dialog{
+  width: 80%;
+  margin: 60% auto;
+}
+.modal-dialog .address{
+  background-image: none;
+}
+.modal-dialog .address p{
+  margin: 5px 0 15px;
+  text-align: center;
+}
+.modal-dialog .fa{ padding-right: 3px; }
+.modal-dialog .real{
+  color: #C9302C;
+}
