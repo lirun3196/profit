@@ -65,7 +65,7 @@ li{
 }
 /* 以上50行是tianmeAPP的header与footer，后期可独立出来 */
 article{ 
-  width: 94%; 
+  width: 90%; 
   margin: 0 auto;
 }
 .address{
