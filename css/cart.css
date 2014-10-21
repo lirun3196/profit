@@ -1,6 +1,6 @@
 /* 
     Created on : 2014-10-2, 15:21:21
-    Author     : 
+    Author     : Lirun
 */
 body{
   font-family: "Helvetica Neue","Microsoft Yahei","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif;
@@ -91,7 +91,7 @@ article>.btn:focus,
     text-decoration: none;
     background-color: rgba(249, 62, 164, 1);
 }
-article .btn{ outline: none;/* 显示申明，否则浏览器会加上user agent 样式 */ }
+article .btn{ outline: none; }/* 显示申明，否则浏览器会加上user agent 样式 */
 .btn-default{
   background-color: #e5e5e5;
 }

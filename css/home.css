@@ -67,21 +67,15 @@ ul,li,a{
   padding: 0; 
   margin: 0;
 }
-li{
-  list-style: none;
-}
+li{ list-style: none; }
 .header p{ margin-bottom: 0; }
-/*.header .glyphicon{ 
-  font-size: 1em; 
-  color: #fff; 
-  top:0; 
-}*/
 .header li{
   float: left;
   width: 50%;
   padding: 0.61111em 0;
 }
-.header li:first-child,.header li:last-child{
+.header li:first-child,
+.header li:last-child{
   width: 25%;
   padding: 0;
 }
@@ -98,7 +92,8 @@ li{
   vertical-align: middle;
   line-height: 2.933;
 }
-.header li a:hover,.header li a:focus{
+.header li a:hover,
+.header li a:focus{
   text-decoration: none;
   background-color: #fff;
   color: #c32f80;
@@ -118,7 +113,6 @@ li{
 }
 .tinmeWrap{
   margin-top: 20px;
-  /*   padding: 1.571428em 1.85714em 2em; */
   background-color: #fff;
 }
 .tinmeTitle{ 
@@ -170,7 +164,7 @@ li{
   width: 100%;
   z-index: 999;
 }
-/*快捷按钮*/
+/*主页左下快捷按钮以及弹出框效果*/
 .icontm{
   background-image: url("../images/APP/bigbf.png");
   width: 50px;
@@ -250,21 +244,6 @@ li{
 }
 .modal-dialog a:hover,.modal-dialog a:focus{
   text-decoration: none;
-}
-.border1,
-.border2,
-.border3,
-.border4{
-  border: 2px solid rgba(15, 14, 14, 0.05);
-  box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.2);
-  display: inline-block;
-  content: "";
-  height: 62px;
-  position: absolute;
-}
-.border1{
-  top: 0px;
-  left: 100px;
 }
 
 @media screen and (min-width:600px) and (max-width:719px){

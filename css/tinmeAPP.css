@@ -1,6 +1,5 @@
 /* 
     Created on : 2014-9-24, 17:44:39
-    Author     : 
 */
  /* custom bootstroop */
 body{
@@ -193,8 +192,3 @@ li{
   body { font-size: 7px; }  
   .logo img{ width: 83px; }
 }
-/*@media screen and (max-width:240px) {
-  body { font-size: 4.66666px; }
-  .logo img{ width: 55px; }
-  .form-control{ height: 6.66668em; }
-}*/

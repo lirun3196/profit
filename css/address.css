@@ -71,7 +71,6 @@ article{
 .address{
   margin: 20px 0;
   padding-top:10px;
-/*   outline: 2px solid;*/
   border-radius: 3px;
   background: url("../images/APP/envelope.png") 0% 0% / auto 4px repeat-x #fff;
   box-shadow: 0 0 2px #bbb;
@@ -114,7 +113,7 @@ article{
   background-color: #fff;
 }
 
-/*模态框之删除*/
+/*模态框之删除按钮*/
 .modal-dialog{
   width: 80%;
   margin: 60% auto;
